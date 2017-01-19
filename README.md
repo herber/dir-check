@@ -10,12 +10,12 @@ npm install --save dir-check
 ```javascript
 const check = require('dir-check');
 
-newport.then(port => {
-  // do something with port
-});
+if (check('my-dir')) {
+  console.log('is a dir');
+}
 ```
 
-> Working example in [test.js](https://github.com/tobihrbr/new-port/blob/master/test.js)
+> Working example in [test.js](https://github.com/tobihrbr/dir-check/blob/master/test.js)
 
 ## License
 MIT
