@@ -1,6 +1,6 @@
-const isdir = require('./lib/app.js');
+const check = require('./lib/app.js');
 
-if (isdir('lib')) {
+if (check('lib')) {
   console.log('is a dir');
 } else {
   console.log('is not a dir');
